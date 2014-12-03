@@ -2,5 +2,8 @@
 
 language: objective-c
 # before_install: cd Example && pod install && cd -
+
 script:
-- xctool test -workspace Example/TSOfflineGeocoder.xcworkspace -scheme TSOfflineGeocoder -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
+    - pod lib lint
+		- xctool -workspace Example/TSOfflineGeocoder.xcworkspace -scheme TSOfflineGeocoder -configuration Release -sdk iphonesimulator -arch i386 build
