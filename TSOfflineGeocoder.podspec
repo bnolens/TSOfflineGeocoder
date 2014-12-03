@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TSOfflineGeocoder"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Offline reverse geocoder for Objective-C"
   s.description      = <<-DESC
 * Offline with online fallback
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/bnolens/TSOfflineGeocoder"
   s.license          = "MIT"
   s.author           = { "Benoit Nolens" => "benoit@truestory.io" }
-  s.source           = { :git => "https://github.com/bnolens/TSOfflineGeocoder.git", :tag => 'v0.1.0' }
+  s.source           = { :git => "https://github.com/bnolens/TSOfflineGeocoder.git", :tag => "#{s.version}" }
 
   s.ios.deployment_target = "7.0"
   s.osx.deployment_target = '10.7'
