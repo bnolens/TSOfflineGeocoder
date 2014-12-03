@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E718C15C-F7B5-4B19-8204-0D9A12849CA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TSOfflineGeocoder-Example</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E150D2673E9FD108C84DD4E960A4867ED77C4140</key>
+		<string>bitbucket.org:hello_truestory/truestory_memento.git</string>
+		<key>F837B2442263F030BB2B5A0E7A8773128CFB9CE2</key>
+		<string>github.com:bnolens/TSOfflineGeocoder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/TSOfflineGeocoder-Example/TSOfflineGeocoder-Example.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E150D2673E9FD108C84DD4E960A4867ED77C4140</key>
+		<string>../../../..</string>
+		<key>F837B2442263F030BB2B5A0E7A8773128CFB9CE2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:bnolens/TSOfflineGeocoder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F837B2442263F030BB2B5A0E7A8773128CFB9CE2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E150D2673E9FD108C84DD4E960A4867ED77C4140</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F837B2442263F030BB2B5A0E7A8773128CFB9CE2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TSOfflineGeocoder</string>
+		</dict>
+	</array>
+</dict>
+</plist>

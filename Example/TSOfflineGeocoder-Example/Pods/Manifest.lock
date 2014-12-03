@@ -1,0 +1,14 @@
+PODS:
+  - TSOfflineGeocoder (0.1.3)
+
+DEPENDENCIES:
+  - TSOfflineGeocoder (from `../../`)
+
+EXTERNAL SOURCES:
+  TSOfflineGeocoder:
+    :path: ../../
+
+SPEC CHECKSUMS:
+  TSOfflineGeocoder: 2fbf760a4a770ade2cdb43c342784f92f88c5a0c
+
+COCOAPODS: 0.34.4

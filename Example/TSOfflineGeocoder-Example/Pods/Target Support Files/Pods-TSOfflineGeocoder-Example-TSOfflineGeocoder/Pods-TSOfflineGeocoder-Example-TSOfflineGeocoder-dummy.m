@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TSOfflineGeocoder_Example_TSOfflineGeocoder : NSObject
+@end
+@implementation PodsDummy_Pods_TSOfflineGeocoder_Example_TSOfflineGeocoder
+@end
