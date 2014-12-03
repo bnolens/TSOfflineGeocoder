@@ -1,4 +1,4 @@
 language: objective-c
 script:
 - pod lib lint
-- xctool -workspace Example/TSOfflineGeocoder/TSOfflineGeocoder.xcworkspace -scheme TSOfflineGeocoder  -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xctool -workspace Example/TSOfflineGeocoder-Example/TSOfflineGeocoder-Example.xcworkspace -scheme TSOfflineGeocoder-Example  -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

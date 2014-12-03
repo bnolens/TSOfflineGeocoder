@@ -71,7 +71,7 @@ static NSArray *geoDataStatic = nil;
     NSError *error;
     NSString *json = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];
     
-    NSAssert(json.length != 0, @"TSOfflineGeocoder: offline_cities.json not found in app bundle");
+    NSAssert(json.length != 0, @"TSOfflineGeocoder: TSOfflineGeocoder_geoData.json not found in app bundle");
     
     NSArray *JSON = [NSJSONSerialization JSONObjectWithData: [json dataUsingEncoding:NSUTF8StringEncoding]
                                                     options: NSJSONReadingMutableContainers

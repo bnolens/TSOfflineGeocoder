@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0V3-3c-aLZ">
+                                <rect key="frame" x="86" y="173" width="428" height="407"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vwh-BX-l0w">
+                                <rect key="frame" x="180" y="124" width="240" height="35"/>
+                                <color key="backgroundColor" white="0.95668402777777772" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="RGN-2d-31N"/>
+                                    <constraint firstAttribute="width" constant="240" id="oYF-l6-HlA"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="fzn-eT-H14"/>
+                                </connections>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TSOfflineGeocoder" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usg-s6-0mV">
+                                <rect key="frame" x="227" y="28" width="147" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="147" id="0Ni-XY-9kg"/>
+                                    <constraint firstAttribute="height" constant="21" id="exg-Az-Ren"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the name of a city or city code. No internet required." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dyj-k4-JhY">
+                                <rect key="frame" x="185" y="53" width="230" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="Zza-DV-bhB"/>
+                                    <constraint firstAttribute="width" constant="230" id="dgR-AF-5bA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0V3-3c-aLZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="70" id="3da-Xq-Da8"/>
+                            <constraint firstAttribute="centerX" secondItem="usg-s6-0mV" secondAttribute="centerX" id="4TR-3C-MCO"/>
+                            <constraint firstItem="vwh-BX-l0w" firstAttribute="top" secondItem="Dyj-k4-JhY" secondAttribute="bottom" constant="33" id="5FE-vc-Y7s"/>
+                            <constraint firstAttribute="centerX" secondItem="vwh-BX-l0w" secondAttribute="centerX" id="C5A-Hj-KH9"/>
+                            <constraint firstItem="usg-s6-0mV" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="EKT-cK-Y0l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0V3-3c-aLZ" secondAttribute="trailing" constant="70" id="IEd-BF-m9I"/>
+                            <constraint firstItem="Dyj-k4-JhY" firstAttribute="top" secondItem="usg-s6-0mV" secondAttribute="bottom" constant="4" id="JZs-hL-b27"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="0V3-3c-aLZ" secondAttribute="bottom" constant="20" id="KZL-nh-9ww"/>
+                            <constraint firstAttribute="centerX" secondItem="Dyj-k4-JhY" secondAttribute="centerX" id="aH9-bq-gHX"/>
+                            <constraint firstItem="0V3-3c-aLZ" firstAttribute="top" secondItem="vwh-BX-l0w" secondAttribute="bottom" constant="14" id="x2z-WA-ESG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="console" destination="0V3-3c-aLZ" id="Uyh-3w-EXM"/>
+                        <outlet property="inputField" destination="vwh-BX-l0w" id="nzY-OS-eTE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
