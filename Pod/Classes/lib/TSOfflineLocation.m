@@ -13,7 +13,7 @@
 @synthesize coordinates, name, displayName, altNames, population, countryCode, altCountryCode, timeZone;
 
 
-+ (id) objectWithDictionary:(NSDictionary *)dic{
++ (instancetype) objectWithDictionary:(NSDictionary *)dic{
     
     TSOfflineLocation *location = [[TSOfflineLocation alloc] init];
     
@@ -72,7 +72,7 @@
     return location;
 }
 
-+ (id) objectWithPlacemark:(CLPlacemark *)placemark{
++ (instancetype) objectWithPlacemark:(CLPlacemark *)placemark{
 
     TSOfflineLocation *location = [[TSOfflineLocation alloc] init];
     
@@ -99,7 +99,7 @@
 
 #pragma mark - Helpers
 
--(id)copyWithZone:(NSZone *)zone {
+-(instancetype)copyWithZone:(NSZone *)zone {
     
     TSOfflineLocation *location = [TSOfflineLocation new];
     location.coordinates = self.coordinates;

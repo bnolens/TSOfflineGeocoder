@@ -20,7 +20,7 @@
 @property (nonatomic, strong) NSString *altCountryCode;
 @property (nonatomic, strong) NSTimeZone *timeZone;
 
-+ (id) objectWithDictionary:(NSDictionary *)dictionary;
-+ (id) objectWithPlacemark:(CLPlacemark *)placemark;
++ (instancetype) objectWithDictionary:(NSDictionary *)dictionary;
++ (instancetype) objectWithPlacemark:(CLPlacemark *)placemark;
 
 @end

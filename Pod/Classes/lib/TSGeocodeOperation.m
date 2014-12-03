@@ -20,7 +20,7 @@ static NSArray *geoDataStatic = nil;
 
 @implementation TSGeocodeOperation
 
-- (id) init {
+- (instancetype) init {
     
     if (self = [super init]) {
         [self loadLocalGeoData];
@@ -219,13 +219,13 @@ static NSArray *geoDataStatic = nil;
     
     // get the autocomplete string
     if ([resultData count] > 0 && !self.cancelled) {
-        if ([[[(NSDictionary*)resultData[0] objectForKey:@"displayName"] lowercaseString] hasPrefix:[query lowercaseString]]) {
-            NSString *displayName = [(NSDictionary*)resultData[0] objectForKey:@"displayName"];
+        if ([[[(NSDictionary*)(resultData[0]) objectForKey:@"displayName"] lowercaseString] hasPrefix:[query lowercaseString]]) {
+            NSString *displayName = [(NSDictionary*)(resultData[0]) objectForKey:@"displayName"];
             autoCompleteString = [displayName substringWithRange:NSMakeRange([query length], [displayName length] - [query length])];
         } else {
             
             // replace spaces by dashes
-            NSString *displayName = [(NSDictionary*)resultData[0] objectForKey:@"displayName"];
+            NSString *displayName = [(NSDictionary*)(resultData[0]) objectForKey:@"displayName"];
             query =  [query stringByReplacingOccurrencesOfString:@" " withString:@"-"];
             if ([[displayName lowercaseString] hasPrefix:[query lowercaseString]]) {
                 autoCompleteString = [displayName substringWithRange:NSMakeRange([query length], [displayName length] - [query length])];
