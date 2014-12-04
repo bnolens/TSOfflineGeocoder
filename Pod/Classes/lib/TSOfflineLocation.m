@@ -10,7 +10,7 @@
 
 @implementation TSOfflineLocation
 
-@synthesize coordinates, name, displayName, altNames, population, countryCode, altCountryCode, timeZone;
+@synthesize coordinates, name, displayName, altNames, population, countryCode, altCountryCode, timeZone, isCurrentLocation;
 
 
 + (instancetype) objectWithDictionary:(NSDictionary *)dic{
@@ -110,6 +110,7 @@
     location.countryCode = self.countryCode;
     location.altCountryCode = self.altCountryCode;
     location.timeZone = self.timeZone;
+    location.isCurrentLocation = self.isCurrentLocation;
     return location;
 }
 

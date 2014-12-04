@@ -19,6 +19,7 @@
 @property (nonatomic, strong) NSString *countryCode;
 @property (nonatomic, strong) NSString *altCountryCode;
 @property (nonatomic, strong) NSTimeZone *timeZone;
+@property (nonatomic) BOOL isCurrentLocation;
 
 + (instancetype) objectWithDictionary:(NSDictionary *)dictionary;
 + (instancetype) objectWithPlacemark:(CLPlacemark *)placemark;
