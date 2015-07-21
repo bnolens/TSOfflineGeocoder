@@ -6,9 +6,11 @@
 //  Copyright (c) 2014 True Story. All rights reserved.
 //
 
-#import "TSGeocodeOperation.h"
-
+NSString *kTSReturnValueAutocomplete  = @"TSOfflineGeocoder.autoComplete";
+NSString *kTSReturnValueData          = @"TSOfflineGeocoder.data";
 static NSArray *geoDataStatic = nil;
+
+#import "TSGeocodeOperation.h"
 
 @interface TSGeocodeOperation ()
 

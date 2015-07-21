@@ -6,13 +6,14 @@
 //  Copyright (c) 2014 True Story. All rights reserved.
 //
 
+EXTERN_API(NSString *) kTSReturnValueAutocomplete;
+EXTERN_API(NSString *) kTSReturnValueData;
+
 @import Foundation;
 @import MapKit;
 #import "TSOfflineLocation.h"
 
 typedef void (^TSCompletionBlock)(NSDictionary *results, NSError *error);
-static NSString const *kTSReturnValueAutocomplete = @"autoComplete";
-static NSString const *kTSReturnValueData = @"data";
 
 @interface TSGeocodeOperation : NSOperation
 
