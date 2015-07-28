@@ -6,11 +6,15 @@
 //  Copyright (c) 2014 True Story. All rights reserved.
 //
 
+#import "TSGeocodeOperation.h"
+#import "RadixTree.h"
+#import "NSDictionary+Additions.h"
+#import "NSString+Additions.h"
+
 NSString *kTSReturnValueAutocomplete  = @"TSOfflineGeocoder.autoComplete";
 NSString *kTSReturnValueData          = @"TSOfflineGeocoder.data";
 static NSArray *geoDataStatic = nil;
-
-#import "TSGeocodeOperation.h"
+static RadixTree *geoTree = nil;
 
 @interface TSGeocodeOperation ()
 
@@ -115,7 +119,7 @@ static NSArray *geoDataStatic = nil;
 }
 
 - (void) loadLocalGeoData {
-    _geoData = [self geoData];
+    self.geoData = [self geoData];
 }
 
 
@@ -126,6 +130,27 @@ static NSArray *geoDataStatic = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         geoDataStatic = [self loadOfflineDBWithPathForResource:@"TSOfflineGeocoder_geoData" ofType:@"json"];
+        geoTree = [RadixTree new];
+        
+        NSLog(@"Start indexing...");
+        for (NSDictionary *city in geoDataStatic) {
+            
+            if ([city hasKey:@"cityCode"] && ![city[@"cityCode"] isBlank]) {
+                [geoTree insert:[[city[@"cityCode"] lowercaseString] ASCIIEncode] value:city];
+                NSLog(@"Indexed : %@", [[city[@"cityCode"] lowercaseString] ASCIIEncode]);
+            }
+            
+            if ([city hasKey:@"name"] && ![city[@"name"] isBlank]) {
+                [geoTree insert:[[city[@"name"] lowercaseString] ASCIIEncode] value:city];
+                NSLog(@"Indexed : %@", [[city[@"name"] lowercaseString] ASCIIEncode]);
+            }
+            
+            if ([city hasKey:@"altName"] && ![city[@"altName"] isBlank]) {
+                [geoTree insert:[[city[@"altName"] lowercaseString] ASCIIEncode] value:city];
+                NSLog(@"Indexed : %@", [[city[@"altName"] lowercaseString] ASCIIEncode]);
+            }
+        }
+        NSLog(@"--> End indexing");
     });
     
     return geoDataStatic;
@@ -192,7 +217,7 @@ static NSArray *geoDataStatic = nil;
     __block NSString *autoCompleteString = @"";
     
     // citycode begins with ...?
-    NSPredicate *filter  = [NSPredicate predicateWithFormat:@"cityCode BEGINSWITH[cd] %@", query];
+    /*NSPredicate *filter  = [NSPredicate predicateWithFormat:@"cityCode BEGINSWITH[cd] %@", query];
     NSArray *resultData = [self.geoData filteredArrayUsingPredicate:filter];
     
     // name is exactly equal?
@@ -211,13 +236,17 @@ static NSArray *geoDataStatic = nil;
     if ([resultData count] == 0 && !self.cancelled) {
         filter = [NSPredicate predicateWithFormat:@"altNames contains[cd] %@", query];
         resultData = [self.geoData filteredArrayUsingPredicate:filter];
-    }
+    }*/
+    
+    string = [[string lowercaseString] ASCIIEncode];
+    NSArray *resultData = [geoTree searchPrefix:string recordLimit:10];
     
     // sort on city population
     if ([resultData count] > 1 && !self.cancelled) {
         NSSortDescriptor *descriptor = [NSSortDescriptor sortDescriptorWithKey:@"population" ascending:NO];
         resultData = [resultData sortedArrayUsingDescriptors:@[descriptor]];
     }
+    
     
     // get the autocomplete string
     if ([resultData count] > 0 && !self.cancelled) {

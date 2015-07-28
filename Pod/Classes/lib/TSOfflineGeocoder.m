@@ -33,6 +33,9 @@
         self.onlineFallbackEnabled = YES;
         self.cacheEnabled = YES;
         self.maxResults = 5;
+        
+        // Preload tree
+        [self geocodeOperation];
     }
     
     return self;
