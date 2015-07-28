@@ -36,8 +36,8 @@
     [self.offlineGeocoder geocodeAddressString:string completionHandler:^(NSDictionary *results, NSError *error) {
         if (results) {
             
-            TSOfflineLocation *firstLocation = (TSOfflineLocation*)((NSArray*)[results objectForKey:@"data"])[0];
-            NSString *autoCompleteString = [results objectForKey:@"autoComplete"];
+            TSOfflineLocation *firstLocation = (TSOfflineLocation*)((NSArray*)[results objectForKey:kTSReturnValueData])[0];
+            NSString *autoCompleteString = [results objectForKey:kTSReturnValueAutocomplete];
             
             self.console.text = [NSString stringWithFormat:@"Auto complete string: %@ \n\nLocation name: %@ \ncoordinates: (%f - %f) \ntimeZone: %@", autoCompleteString, firstLocation.displayName, firstLocation.coordinates.latitude, firstLocation.coordinates.longitude, firstLocation.timeZone.description];
         }
