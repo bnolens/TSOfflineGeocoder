@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface TSOfflineLocation : NSObject <NSCopying>
+@interface TSOfflineLocation : NSObject <NSCopying, NSCoding>
 
 @property (nonatomic) CLLocationCoordinate2D coordinates;
 @property (nonatomic, strong) NSString *name;
@@ -23,5 +23,9 @@
 
 + (instancetype) objectWithDictionary:(NSDictionary *)dictionary;
 + (instancetype) objectWithPlacemark:(CLPlacemark *)placemark;
+
+#pragma mark - NSObject
+
+- (BOOL) isEqualToLocation:(TSOfflineLocation*)location;
 
 @end

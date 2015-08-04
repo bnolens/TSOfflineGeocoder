@@ -12,7 +12,6 @@
 
 @synthesize coordinates, name, displayName, altNames, population, countryCode, altCountryCode, timeZone, isCurrentLocation;
 
-
 + (instancetype) objectWithDictionary:(NSDictionary *)dic{
     
     TSOfflineLocation *location = [[TSOfflineLocation alloc] init];
@@ -97,9 +96,45 @@
     return location;
 }
 
-#pragma mark - Helpers
+#pragma mark - NSObject
 
--(instancetype)copyWithZone:(NSZone *)zone {
+- (void)encodeWithCoder:(NSCoder *)encoder {
+
+    NSNumber *lat = [NSNumber numberWithDouble:self.coordinates.latitude];
+    NSNumber *lon = [NSNumber numberWithDouble:self.coordinates.longitude];
+    NSDictionary *coordinatesDic = @{@"lat":lat,@"lon":lon};
+    
+    [encoder encodeObject:coordinatesDic forKey:@"coordinates"];
+    [encoder encodeObject:self.name forKey:@"name"];
+    [encoder encodeObject:self.displayName forKey:@"displayName"];
+    [encoder encodeObject:self.altNames forKey:@"altNames"];
+    [encoder encodeObject:self.population forKey:@"population"];
+    [encoder encodeObject:self.countryCode forKey:@"countryCode"];
+    [encoder encodeObject:self.altCountryCode forKey:@"altCountryCode"];
+    [encoder encodeObject:self.timeZone forKey:@"timeZone"];
+    [encoder encodeObject:@(self.isCurrentLocation) forKey:@"isCurrentLocation"];
+}
+
+- (id)initWithCoder:(NSCoder *)decoder {
+    
+    if(self = [super init]) {
+        NSDictionary *coordinatesDic = [decoder decodeObjectForKey:@"coordinates"];
+        if (coordinatesDic) {
+            self.coordinates = CLLocationCoordinate2DMake([coordinatesDic[@"lat"] doubleValue], [coordinatesDic[@"lon"] doubleValue]);
+        }
+        self.name = [decoder decodeObjectForKey:@"name"];
+        self.displayName = [decoder decodeObjectForKey:@"displayName"];
+        self.altNames = [decoder decodeObjectForKey:@"altNames"];
+        self.population = [decoder decodeObjectForKey:@"population"];
+        self.countryCode = [decoder decodeObjectForKey:@"countryCode"];
+        self.altCountryCode = [decoder decodeObjectForKey:@"altCountryCode"];
+        self.timeZone = [decoder decodeObjectForKey:@"timeZone"];
+        self.isCurrentLocation = [[decoder decodeObjectForKey:@"isCurrentLocation"] boolValue];
+    }
+    return self;
+}
+
+- (instancetype)copyWithZone:(NSZone *)zone {
     
     TSOfflineLocation *location = [TSOfflineLocation new];
     location.coordinates = self.coordinates;
@@ -116,6 +151,25 @@
 
 - (NSString*) description {
     return [NSString stringWithFormat:@"- TSOfflineLocation - \nname: %@, \ncoordinates: (%f, %f), \ntimezone: %@", self.displayName, self.coordinates.latitude, self.coordinates.longitude, timeZone.description];
+}
+
+- (BOOL) isEqualToLocation:(TSOfflineLocation*)location {
+    
+    if (!location) {
+        return NO;
+    }
+    
+    BOOL haveEqualCoordinates = (self.coordinates.latitude == location.coordinates.latitude && self.coordinates.longitude == location.coordinates.longitude);
+    BOOL haveEqualName = (!self.name && !location.name) || ([self.name isEqualToString:location.name]);
+    BOOL haveEqualDisplayName = (!self.displayName && !location.displayName) || ([self.displayName isEqualToString:location.displayName]);
+    BOOL haveEqualAltNames = (!self.altNames && !location.altNames) || ([self.altNames isEqualToString:location.altNames]);
+    BOOL haveEqualPopulation = (!self.population && !location.population) || ([self.population isEqualToNumber:location.population]);
+    BOOL haveEqualCountryCode = (!self.countryCode && !location.countryCode) || ([self.countryCode isEqualToString:location.countryCode]);
+    BOOL haveEqualAltCountryCode = (!self.altCountryCode && !location.altCountryCode) || ([self.altCountryCode isEqualToString:location.altCountryCode]);
+    BOOL haveEqualTimeZone = (!self.timeZone && !location.timeZone) || ([self.timeZone isEqualToTimeZone:location.timeZone]);
+    BOOL haveEqualIsCurrentLocation = (self.isCurrentLocation == location.isCurrentLocation);
+    
+    return haveEqualCoordinates && haveEqualName && haveEqualDisplayName && haveEqualAltNames && haveEqualPopulation && haveEqualCountryCode && haveEqualAltCountryCode && haveEqualTimeZone && haveEqualIsCurrentLocation;
 }
 
 @end
