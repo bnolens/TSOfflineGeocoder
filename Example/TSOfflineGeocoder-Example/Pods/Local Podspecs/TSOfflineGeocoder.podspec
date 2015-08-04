@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "TSOfflineGeocoder"
-  s.version          = "0.1.3"
-  s.summary          = "Offline reverse geocoder for Objective-C"
+  s.version          = "0.1.4"
+  s.summary          = "Offline reverse geocoder for Objective-c"
   s.description      = <<-DESC
 * Offline with online fallback
 * Fast
