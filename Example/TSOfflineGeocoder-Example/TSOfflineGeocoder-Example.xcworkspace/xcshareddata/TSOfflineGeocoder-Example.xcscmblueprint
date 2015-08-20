@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F837B2442263F030BB2B5A0E7A8773128CFB9CE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F837B2442263F030BB2B5A0E7A8773128CFB9CE2" : 0,
+    "E150D2673E9FD108C84DD4E960A4867ED77C4140" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E718C15C-F7B5-4B19-8204-0D9A12849CA0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F837B2442263F030BB2B5A0E7A8773128CFB9CE2" : "TSOfflineGeocoder",
+    "E150D2673E9FD108C84DD4E960A4867ED77C4140" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TSOfflineGeocoder-Example",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/TSOfflineGeocoder-Example\/TSOfflineGeocoder-Example.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:hello_truestory\/truestory_memento.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E150D2673E9FD108C84DD4E960A4867ED77C4140"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bnolens\/TSOfflineGeocoder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F837B2442263F030BB2B5A0E7A8773128CFB9CE2"
+    }
+  ]
+}

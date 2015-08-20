@@ -1,1761 +1,610 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>002E7D9AD069AB3B3E96122E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>01BA12EEB7CC1FB209A3B0AB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4197BAFED348759DD7A36E47</string>
-				<string>CB0FB96C30A6D2EBD183E869</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>07E51957EF7AF236A4A27494</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>74B0F431C91EB32B9F168411</string>
-			<key>targetProxy</key>
-			<string>EC931928BAB3524DF1AFFEA5</string>
-		</dict>
-		<key>0EA5994EDD416AB7B296A14C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>TSOfflineGeocoder_geoData.json</string>
-			<key>path</key>
-			<string>Pod/Resources/TSOfflineGeocoder_geoData.json</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0FCB0C546656A56D87EF6245</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F83CFEE5C86900193666F563</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>126B59871CEC9F75FC7BE8AA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>178F38EF82560932C8A01067</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>152B773B147A25083705AA76</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>944634C53C6AEFEC694ED9BC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder/Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1584F8E83DF9B96C4818BC19</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TSOfflineGeocoder-Example.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>171E7B9990D9D5F513FAA8CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B69AADBB782B9704BEA52466</string>
-				<string>ECFF0C06FC862910F185631E</string>
-				<string>6C7476358F782761E67B5793</string>
-				<string>C2BCEA12DB91EF15070C1888</string>
-				<string>7D649B8CE53387922E29DA3C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>178F38EF82560932C8A01067</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TSGeocodeOperation.m</string>
-			<key>path</key>
-			<string>Pod/Classes/lib/TSGeocodeOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AFEB31CBB896ACE36710CAA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D847206B53C54F47CB1E1D7</string>
-				<string>67757E3E2FF07B67E0BB91C2</string>
-				<string>CDDD93DF8FC33350AD382E0F</string>
-				<string>E798B5955DF4559C964DEE89</string>
-				<string>92412164621ECE2252433232</string>
-				<string>944634C53C6AEFEC694ED9BC</string>
-				<string>89CB03DF2561E0A2F0563991</string>
-				<string>BA93F660648AB616E0EC49DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/TSOfflineGeocoder-Example/Pods/Target Support Files/Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D0C8AA48FFBE51AC633E81A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F8D5C611325E249799AFE5C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1FACECF89C22E5634FC93479</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C16E04D80C58A2ADB1D5CB4D</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>22487DAE18A42C514734EBEC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2328F1F62D7C5113F552976F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>38FEB829156A72F455541578</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>244B70D5130735832D79DAF5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>256FBB5704031378BDDEFD3F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F16E497E21DCB082EF604CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>28D275CB7D1B74870C281741</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TSOfflineGeocoder-Example-TSOfflineGeocoder.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>28F13B0C8C2E69812CDEDB68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A8AE00A533687C7187B1A505</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2AB9B4B05CD8DF27A0AD6ED9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>2F86E54A5574A968F9E9B729</string>
-			<key>targetProxy</key>
-			<string>C058324673056A79BF26F60F</string>
-		</dict>
-		<key>2D847206B53C54F47CB1E1D7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F86E54A5574A968F9E9B729</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>61E8005915D641ACDC7258CF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>59D424AA25F5EE74D9432CC3</string>
-				<string>0FCB0C546656A56D87EF6245</string>
-				<string>310D810BB977201FEFD52A6B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder</string>
-			<key>productName</key>
-			<string>Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder</string>
-			<key>productReference</key>
-			<string>28D275CB7D1B74870C281741</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>30FF5BA43A5A1EC51691D96A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>310D810BB977201FEFD52A6B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A86D397CAE28A187DC6E334B</string>
-				<string>EF31384DE995382F08382637</string>
-				<string>EC1A6E96BCAE3A11D2298CA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3122F6900E72860AD2799CA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>178F38EF82560932C8A01067</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>32EF41904B53FF4196D9422D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TSOfflineLocation.m</string>
-			<key>path</key>
-			<string>Pod/Classes/lib/TSOfflineLocation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>339B6B676DF17BE750B30019</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>33A984A4B8191643EDCF3733</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TSOfflineLocation.h</string>
-			<key>path</key>
-			<string>Pod/Classes/lib/TSOfflineLocation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>382FD090950D6339E3ED6B99</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C06B5E91D824C6E3422119</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38FEB829156A72F455541578</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3D85D36E1171796D33C8D731</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33A984A4B8191643EDCF3733</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3F16E497E21DCB082EF604CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TSOfflineGeocoder.h</string>
-			<key>path</key>
-			<string>Pod/Classes/lib/TSOfflineGeocoder.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4197BAFED348759DD7A36E47</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B6E45005B4EB95321E09AD3E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>460AF30E7166B008129C0E3F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>67757E3E2FF07B67E0BB91C2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder/Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>50C344554652F38F473510ED</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5190D6F0B30CCD6EEE5D1B74</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FB049EC4ABA0CA4B829731FF</string>
-				<string>1FACECF89C22E5634FC93479</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>59D424AA25F5EE74D9432CC3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B11CE8D0D66F00EC922FEEC4</string>
-				<string>3122F6900E72860AD2799CA7</string>
-				<string>9298F21E73E58EAD36C2A1A2</string>
-				<string>6E78DC07A27C734E2F164168</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5E4618C9614FB6DF8BE8F15F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AD18A7EDF684BC7D3124B434</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>61E8005915D641ACDC7258CF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>92466653DFF848CFA49E3BEA</string>
-				<string>460AF30E7166B008129C0E3F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>67757E3E2FF07B67E0BB91C2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C7476358F782761E67B5793</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2328F1F62D7C5113F552976F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E78DC07A27C734E2F164168</key>
-		<dict>
-			<key>fileRef</key>
-			<string>32EF41904B53FF4196D9422D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>6ED9D9DCABCCACED98C2ADD0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>32EF41904B53FF4196D9422D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>7258BF3CFDDBC53606794C1C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>382FD090950D6339E3ED6B99</string>
-				<string>256FBB5704031378BDDEFD3F</string>
-				<string>3D85D36E1171796D33C8D731</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>726384F92B663ACD81F64FED</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9888CE5D525DFC19002C83DF</string>
-				<string>126B59871CEC9F75FC7BE8AA</string>
-				<string>E1903BD15A16D9FC16F51422</string>
-				<string>6ED9D9DCABCCACED98C2ADD0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>74B0F431C91EB32B9F168411</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>B27348412E575D166F082798</string>
-			<key>buildPhases</key>
-			<array>
-				<string>726384F92B663ACD81F64FED</string>
-				<string>28F13B0C8C2E69812CDEDB68</string>
-				<string>7258BF3CFDDBC53606794C1C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder</string>
-			<key>productName</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder</string>
-			<key>productReference</key>
-			<string>50C344554652F38F473510ED</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7674F1CE78D58B8C8EB085D2</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>01BA12EEB7CC1FB209A3B0AB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C68B80818F1D001927A9E8F3</string>
-				<string>E5A4EBBA80F95AC0B43F107D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>07E51957EF7AF236A4A27494</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests</string>
-			<key>productName</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests</string>
-			<key>productReference</key>
-			<string>9996F6854F9125BD88AE2FB8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7698AB8A8770F5C6897103F2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B0B4A712A2980B665BB77616</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D649B8CE53387922E29DA3C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C61760D28651C540706F0A8E</string>
-				<string>962D932E7C6224D1CE0AE254</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>888576D8113A6BB74BA5E445</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89CB03DF2561E0A2F0563991</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder/Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89E57B0056841574AC244B8A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38FEB829156A72F455541578</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92412164621ECE2252433232</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder/Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92466653DFF848CFA49E3BEA</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>67757E3E2FF07B67E0BB91C2</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder/Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9298F21E73E58EAD36C2A1A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C05AE69C8E17FA61B87962D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>936845A183D195DCC50C7F2A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>30FF5BA43A5A1EC51691D96A</string>
-				<string>1F8D5C611325E249799AFE5C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>944634C53C6AEFEC694ED9BC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder/Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>962D932E7C6224D1CE0AE254</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D2958CC09AC87379F6D775E7</string>
-				<string>B2C8DB4596DB5F4B9FB12EB9</string>
-				<string>AD18A7EDF684BC7D3124B434</string>
-				<string>D9463BFC225D07B07FD48A7F</string>
-				<string>244B70D5130735832D79DAF5</string>
-				<string>B6E45005B4EB95321E09AD3E</string>
-				<string>A8B622FAD6A71003DC8620CB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-TSOfflineGeocoder-ExampleTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9888CE5D525DFC19002C83DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>89CB03DF2561E0A2F0563991</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9996F6854F9125BD88AE2FB8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-TSOfflineGeocoder-ExampleTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A3C06B5E91D824C6E3422119</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TSGeocodeOperation.h</string>
-			<key>path</key>
-			<string>Pod/Classes/lib/TSGeocodeOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A86D397CAE28A187DC6E334B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3C06B5E91D824C6E3422119</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A8AE00A533687C7187B1A505</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38FEB829156A72F455541578</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A8B622FAD6A71003DC8620CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD18A7EDF684BC7D3124B434</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0B4A712A2980B665BB77616</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38FEB829156A72F455541578</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B11CE8D0D66F00EC922FEEC4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CDDD93DF8FC33350AD382E0F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B27348412E575D166F082798</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>CADE14FA4B4885C07CE589C1</string>
-				<string>152B773B147A25083705AA76</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B2C8DB4596DB5F4B9FB12EB9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B69AADBB782B9704BEA52466</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>B6E45005B4EB95321E09AD3E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9A9061C27764543B55182A3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A3C06B5E91D824C6E3422119</string>
-				<string>178F38EF82560932C8A01067</string>
-				<string>3F16E497E21DCB082EF604CC</string>
-				<string>C05AE69C8E17FA61B87962D8</string>
-				<string>33A984A4B8191643EDCF3733</string>
-				<string>32EF41904B53FF4196D9422D</string>
-				<string>F41021878BE526E47BBCDE00</string>
-				<string>1AFEB31CBB896ACE36710CAA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TSOfflineGeocoder</string>
-			<key>path</key>
-			<string>../../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA93F660648AB616E0EC49DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder/Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB17F0C00848E9C4B1991B00</key>
-		<dict>
-			<key>fileRef</key>
-			<string>888576D8113A6BB74BA5E445</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF30CC065FDD379D74C01844</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C058324673056A79BF26F60F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D3A3883091E68117ABF6E7CC</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2F86E54A5574A968F9E9B729</string>
-			<key>remoteInfo</key>
-			<string>Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder</string>
-		</dict>
-		<key>C05AE69C8E17FA61B87962D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TSOfflineGeocoder.m</string>
-			<key>path</key>
-			<string>Pod/Classes/lib/TSOfflineGeocoder.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C16E04D80C58A2ADB1D5CB4D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2BCEA12DB91EF15070C1888</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1584F8E83DF9B96C4818BC19</string>
-				<string>28D275CB7D1B74870C281741</string>
-				<string>9996F6854F9125BD88AE2FB8</string>
-				<string>50C344554652F38F473510ED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C61760D28651C540706F0A8E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>339B6B676DF17BE750B30019</string>
-				<string>BF30CC065FDD379D74C01844</string>
-				<string>888576D8113A6BB74BA5E445</string>
-				<string>002E7D9AD069AB3B3E96122E</string>
-				<string>22487DAE18A42C514734EBEC</string>
-				<string>1D0C8AA48FFBE51AC633E81A</string>
-				<string>C16E04D80C58A2ADB1D5CB4D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-TSOfflineGeocoder-Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C68B80818F1D001927A9E8F3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5E4618C9614FB6DF8BE8F15F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CADE14FA4B4885C07CE589C1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>944634C53C6AEFEC694ED9BC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder/Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>CB0FB96C30A6D2EBD183E869</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A8B622FAD6A71003DC8620CB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>CDDD93DF8FC33350AD382E0F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D2958CC09AC87379F6D775E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3A3883091E68117ABF6E7CC</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>936845A183D195DCC50C7F2A</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>171E7B9990D9D5F513FAA8CC</string>
-			<key>productRefGroup</key>
-			<string>C2BCEA12DB91EF15070C1888</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>F26C5DE0109606206A42ABEC</string>
-				<string>2F86E54A5574A968F9E9B729</string>
-				<string>7674F1CE78D58B8C8EB085D2</string>
-				<string>74B0F431C91EB32B9F168411</string>
-			</array>
-		</dict>
-		<key>D9463BFC225D07B07FD48A7F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1903BD15A16D9FC16F51422</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C05AE69C8E17FA61B87962D8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>E5A4EBBA80F95AC0B43F107D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>89E57B0056841574AC244B8A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E798B5955DF4559C964DEE89</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-TSOfflineGeocoder-Example-TSOfflineGeocoder-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC1A6E96BCAE3A11D2298CA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33A984A4B8191643EDCF3733</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EC931928BAB3524DF1AFFEA5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D3A3883091E68117ABF6E7CC</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>74B0F431C91EB32B9F168411</string>
-			<key>remoteInfo</key>
-			<string>Pods-TSOfflineGeocoder-ExampleTests-TSOfflineGeocoder</string>
-		</dict>
-		<key>ECFF0C06FC862910F185631E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B9A9061C27764543B55182A3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF31384DE995382F08382637</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F16E497E21DCB082EF604CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F26C5DE0109606206A42ABEC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5190D6F0B30CCD6EEE5D1B74</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FDFDCCF72B01573334CC1EBE</string>
-				<string>7698AB8A8770F5C6897103F2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2AB9B4B05CD8DF27A0AD6ED9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-TSOfflineGeocoder-Example</string>
-			<key>productName</key>
-			<string>Pods-TSOfflineGeocoder-Example</string>
-			<key>productReference</key>
-			<string>1584F8E83DF9B96C4818BC19</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F41021878BE526E47BBCDE00</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0EA5994EDD416AB7B296A14C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F83CFEE5C86900193666F563</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38FEB829156A72F455541578</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FB049EC4ABA0CA4B829731FF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1D0C8AA48FFBE51AC633E81A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.2</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>FDFDCCF72B01573334CC1EBE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BB17F0C00848E9C4B1991B00</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D3A3883091E68117ABF6E7CC</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19575ED61B6F6072F5F471BF658F8A7E /* TSOfflineGeocoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A27D711D23760E68AFB88259918361 /* TSOfflineGeocoder-dummy.m */; };
+		2827E517C553C1810FA10BA1D344AC72 /* TSGeocodeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C714C59F5ACEE267036CD86E60D9D7 /* TSGeocodeOperation.m */; };
+		3DFB3C109A15A818C1B657A8D5CAEE60 /* TSOfflineLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D24362EF982C363BBF1743D4DD8B2F6A /* TSOfflineLocation.m */; };
+		5A394F238ABF3FFE6FE3BFC11B0AD591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */; };
+		8399F2871975B1629C71135800994507 /* Pods-TSOfflineGeocoder-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F9AC9660C297BDBEBEDD4997E1E40B /* Pods-TSOfflineGeocoder-ExampleTests-dummy.m */; };
+		A755BBD5746578F16FBC2225A1CF88CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */; };
+		A99C52199A342FB27617FC4917A1D4B4 /* Pods-TSOfflineGeocoder-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E0E3C764D53B6660A3C6E35004B4FB /* Pods-TSOfflineGeocoder-Example-dummy.m */; };
+		B1F2EEB9D710E396104BDB9167A71C7B /* TSOfflineGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6005A822A25C00DE7763CB19EF4754 /* TSOfflineGeocoder.h */; };
+		B24A38B23116C69BDD5D92534BB0ADB9 /* TSOfflineGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EEFEBB15D53E8BA0847DE4D4A762F1 /* TSOfflineGeocoder.m */; };
+		B5FCD08AC02E7CB39E70659E74B58D2B /* TSGeocodeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E063AB7B26E02AC9DE1410F751FC9B0 /* TSGeocodeOperation.h */; };
+		D32BDBF59CB9226548A7AAE5E6D02910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */; };
+		DB09F3FD91E51275680590D09AE5F8B2 /* TSOfflineLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B39A114A8C97D5FAAF3A6FC7CB489C9 /* TSOfflineLocation.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F6E6C497D2FA495BE6D513B771B454E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA581D6ADA4091A067E6E4FA54A05986;
+			remoteInfo = TSOfflineGeocoder;
+		};
+		8CC8C426745EFFC245F5FC88FB24B3A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA581D6ADA4091A067E6E4FA54A05986;
+			remoteInfo = TSOfflineGeocoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D3937279008529C2A8ED5EE79692B48 /* Pods-TSOfflineGeocoder-ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSOfflineGeocoder-ExampleTests-resources.sh"; sourceTree = "<group>"; };
+		1EED76622422D1496D872C8515B4AF41 /* Pods-TSOfflineGeocoder-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSOfflineGeocoder-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2177FF13EA292C4949EF6C1FC0747526 /* Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28C714C59F5ACEE267036CD86E60D9D7 /* TSGeocodeOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSGeocodeOperation.m; sourceTree = "<group>"; };
+		33784946B0C4C6AF90E5556B7A47F1A9 /* TSOfflineGeocoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSOfflineGeocoder-prefix.pch"; sourceTree = "<group>"; };
+		33F9AC9660C297BDBEBEDD4997E1E40B /* Pods-TSOfflineGeocoder-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSOfflineGeocoder-ExampleTests-dummy.m"; sourceTree = "<group>"; };
+		44339C6242374D063BB739C02CF53BBE /* TSOfflineGeocoder_geoData.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = TSOfflineGeocoder_geoData.json; sourceTree = "<group>"; };
+		45A59523EE2FAC0D4B1E3D7DC5D5B860 /* Pods-TSOfflineGeocoder-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSOfflineGeocoder-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		53338351DE8EADCC91D3CBF50E62F600 /* libPods-TSOfflineGeocoder-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSOfflineGeocoder-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EBBB10CA889594B3FF2AC02B8AE5EC /* libPods-TSOfflineGeocoder-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSOfflineGeocoder-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57EEFEBB15D53E8BA0847DE4D4A762F1 /* TSOfflineGeocoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSOfflineGeocoder.m; sourceTree = "<group>"; };
+		6E56BE849897433E1339128B9C4FAA4A /* Pods-TSOfflineGeocoder-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSOfflineGeocoder-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		71A27D711D23760E68AFB88259918361 /* TSOfflineGeocoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSOfflineGeocoder-dummy.m"; sourceTree = "<group>"; };
+		7AD944E62D3BCAD313FAC96A737DD29C /* Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B39A114A8C97D5FAAF3A6FC7CB489C9 /* TSOfflineLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSOfflineLocation.h; sourceTree = "<group>"; };
+		8846CA28F6BF03FAE8A5E14BF76315DC /* Pods-TSOfflineGeocoder-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSOfflineGeocoder-Example-resources.sh"; sourceTree = "<group>"; };
+		8E063AB7B26E02AC9DE1410F751FC9B0 /* TSGeocodeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSGeocodeOperation.h; sourceTree = "<group>"; };
+		99F18FF27AB7346278AB6046E92F2C37 /* TSOfflineGeocoder-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSOfflineGeocoder-Private.xcconfig"; sourceTree = "<group>"; };
+		9A6005A822A25C00DE7763CB19EF4754 /* TSOfflineGeocoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSOfflineGeocoder.h; sourceTree = "<group>"; };
+		A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C25B6DB3CFAFB5E58DD5936F310C8219 /* libTSOfflineGeocoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSOfflineGeocoder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D225E2D1D13B0E4CA9AED51168C78D7D /* Pods-TSOfflineGeocoder-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSOfflineGeocoder-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D24362EF982C363BBF1743D4DD8B2F6A /* TSOfflineLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSOfflineLocation.m; sourceTree = "<group>"; };
+		D369B1404C8FE531EE70119FF776078B /* Pods-TSOfflineGeocoder-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSOfflineGeocoder-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D3E0E3C764D53B6660A3C6E35004B4FB /* Pods-TSOfflineGeocoder-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSOfflineGeocoder-Example-dummy.m"; sourceTree = "<group>"; };
+		D4DB5C742972D09469D7447D30C8C13B /* TSOfflineGeocoder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSOfflineGeocoder.xcconfig; sourceTree = "<group>"; };
+		E4DF8527587337053DC1862562CD392A /* Pods-TSOfflineGeocoder-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSOfflineGeocoder-Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47831C32C6210D0DA17BEB2ED4025B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A755BBD5746578F16FBC2225A1CF88CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BA2CBC3F8F918A1AB4B127CFED112DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32BDBF59CB9226548A7AAE5E6D02910 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA04D354B696986334BE71D7FE3D29A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A394F238ABF3FFE6FE3BFC11B0AD591 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED070EEBBAFDBB81A26BDE4C07D1878 /* Pods-TSOfflineGeocoder-Example */ = {
+			isa = PBXGroup;
+			children = (
+				D225E2D1D13B0E4CA9AED51168C78D7D /* Pods-TSOfflineGeocoder-Example-acknowledgements.markdown */,
+				45A59523EE2FAC0D4B1E3D7DC5D5B860 /* Pods-TSOfflineGeocoder-Example-acknowledgements.plist */,
+				D3E0E3C764D53B6660A3C6E35004B4FB /* Pods-TSOfflineGeocoder-Example-dummy.m */,
+				8846CA28F6BF03FAE8A5E14BF76315DC /* Pods-TSOfflineGeocoder-Example-resources.sh */,
+				D369B1404C8FE531EE70119FF776078B /* Pods-TSOfflineGeocoder-Example.debug.xcconfig */,
+				E4DF8527587337053DC1862562CD392A /* Pods-TSOfflineGeocoder-Example.release.xcconfig */,
+			);
+			name = "Pods-TSOfflineGeocoder-Example";
+			path = "Target Support Files/Pods-TSOfflineGeocoder-Example";
+			sourceTree = "<group>";
+		};
+		2EDED6B8D5175B44E29F256D2039368A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E1E7815D06AAACAC5B8DCB8BB6D61E9B /* lib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C24E547347D32169ABE7B88616CE1D1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2EDED6B8D5175B44E29F256D2039368A /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		73DCC5BD7E2BB228DE9FD73D95E1D919 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BC1CCFB79E1701713F3FC4DC105EEAC1 /* Resources */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				C9194E33FD8D5B6C825EF99F2A3CFEDB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				F15C5D542A2053C2DFEB2898246BB654 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1CCFB79E1701713F3FC4DC105EEAC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44339C6242374D063BB739C02CF53BBE /* TSOfflineGeocoder_geoData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF07FB605CA3C04D5FCE1A841869BFA5 /* Pods-TSOfflineGeocoder-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AD944E62D3BCAD313FAC96A737DD29C /* Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.markdown */,
+				2177FF13EA292C4949EF6C1FC0747526 /* Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.plist */,
+				33F9AC9660C297BDBEBEDD4997E1E40B /* Pods-TSOfflineGeocoder-ExampleTests-dummy.m */,
+				0D3937279008529C2A8ED5EE79692B48 /* Pods-TSOfflineGeocoder-ExampleTests-resources.sh */,
+				1EED76622422D1496D872C8515B4AF41 /* Pods-TSOfflineGeocoder-ExampleTests.debug.xcconfig */,
+				6E56BE849897433E1339128B9C4FAA4A /* Pods-TSOfflineGeocoder-ExampleTests.release.xcconfig */,
+			);
+			name = "Pods-TSOfflineGeocoder-ExampleTests";
+			path = "Target Support Files/Pods-TSOfflineGeocoder-ExampleTests";
+			sourceTree = "<group>";
+		};
+		C9194E33FD8D5B6C825EF99F2A3CFEDB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0784E04D9DAFE5EDD764F9FE8447F22 /* TSOfflineGeocoder */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53EBBB10CA889594B3FF2AC02B8AE5EC /* libPods-TSOfflineGeocoder-Example.a */,
+				53338351DE8EADCC91D3CBF50E62F600 /* libPods-TSOfflineGeocoder-ExampleTests.a */,
+				C25B6DB3CFAFB5E58DD5936F310C8219 /* libTSOfflineGeocoder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED82B2BDD410E6538489D3DD2ABE6DE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73DCC5BD7E2BB228DE9FD73D95E1D919 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E1E7815D06AAACAC5B8DCB8BB6D61E9B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8E063AB7B26E02AC9DE1410F751FC9B0 /* TSGeocodeOperation.h */,
+				28C714C59F5ACEE267036CD86E60D9D7 /* TSGeocodeOperation.m */,
+				9A6005A822A25C00DE7763CB19EF4754 /* TSOfflineGeocoder.h */,
+				57EEFEBB15D53E8BA0847DE4D4A762F1 /* TSOfflineGeocoder.m */,
+				7B39A114A8C97D5FAAF3A6FC7CB489C9 /* TSOfflineLocation.h */,
+				D24362EF982C363BBF1743D4DD8B2F6A /* TSOfflineLocation.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		F0784E04D9DAFE5EDD764F9FE8447F22 /* TSOfflineGeocoder */ = {
+			isa = PBXGroup;
+			children = (
+				5C24E547347D32169ABE7B88616CE1D1 /* Pod */,
+				CED82B2BDD410E6538489D3DD2ABE6DE /* Resources */,
+				F4BA91F63B204DCCDF809E520BE02E7D /* Support Files */,
+			);
+			name = TSOfflineGeocoder;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		F15C5D542A2053C2DFEB2898246BB654 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0ED070EEBBAFDBB81A26BDE4C07D1878 /* Pods-TSOfflineGeocoder-Example */,
+				BF07FB605CA3C04D5FCE1A841869BFA5 /* Pods-TSOfflineGeocoder-ExampleTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4BA91F63B204DCCDF809E520BE02E7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4DB5C742972D09469D7447D30C8C13B /* TSOfflineGeocoder.xcconfig */,
+				99F18FF27AB7346278AB6046E92F2C37 /* TSOfflineGeocoder-Private.xcconfig */,
+				71A27D711D23760E68AFB88259918361 /* TSOfflineGeocoder-dummy.m */,
+				33784946B0C4C6AF90E5556B7A47F1A9 /* TSOfflineGeocoder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/TSOfflineGeocoder-Example/Pods/Target Support Files/TSOfflineGeocoder";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72D59BF1E17C922AF85F56BE4C50A446 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FCD08AC02E7CB39E70659E74B58D2B /* TSGeocodeOperation.h in Headers */,
+				B1F2EEB9D710E396104BDB9167A71C7B /* TSOfflineGeocoder.h in Headers */,
+				DB09F3FD91E51275680590D09AE5F8B2 /* TSOfflineLocation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0726B31A04653F453878F65DE0FAE460 /* Pods-TSOfflineGeocoder-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C448F1CB07BBA087F3F276827BF583D /* Build configuration list for PBXNativeTarget "Pods-TSOfflineGeocoder-Example" */;
+			buildPhases = (
+				997EFEAC37C06276DE6D7BD601C456A7 /* Sources */,
+				7EA04D354B696986334BE71D7FE3D29A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C8727C4E2A1551A18F32BF94E8B648 /* PBXTargetDependency */,
+			);
+			name = "Pods-TSOfflineGeocoder-Example";
+			productName = "Pods-TSOfflineGeocoder-Example";
+			productReference = 53EBBB10CA889594B3FF2AC02B8AE5EC /* libPods-TSOfflineGeocoder-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		332A51B8EF9CB490D380F94C7B4DCCF9 /* Pods-TSOfflineGeocoder-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5432B73C8E08BD5B7426F391578134A2 /* Build configuration list for PBXNativeTarget "Pods-TSOfflineGeocoder-ExampleTests" */;
+			buildPhases = (
+				B2E5A3416CA7E95AA79DFA4D874FCC6D /* Sources */,
+				47831C32C6210D0DA17BEB2ED4025B42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D1835654DDC48937D660B4CB86CDBCA /* PBXTargetDependency */,
+			);
+			name = "Pods-TSOfflineGeocoder-ExampleTests";
+			productName = "Pods-TSOfflineGeocoder-ExampleTests";
+			productReference = 53338351DE8EADCC91D3CBF50E62F600 /* libPods-TSOfflineGeocoder-ExampleTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA581D6ADA4091A067E6E4FA54A05986 /* TSOfflineGeocoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59AEC6401762C4B16B9E651AAF45A7B9 /* Build configuration list for PBXNativeTarget "TSOfflineGeocoder" */;
+			buildPhases = (
+				A3EE943D5E9658F567C2E15BAC463D9E /* Sources */,
+				7BA2CBC3F8F918A1AB4B127CFED112DA /* Frameworks */,
+				72D59BF1E17C922AF85F56BE4C50A446 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSOfflineGeocoder;
+			productName = TSOfflineGeocoder;
+			productReference = C25B6DB3CFAFB5E58DD5936F310C8219 /* libTSOfflineGeocoder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0726B31A04653F453878F65DE0FAE460 /* Pods-TSOfflineGeocoder-Example */,
+				332A51B8EF9CB490D380F94C7B4DCCF9 /* Pods-TSOfflineGeocoder-ExampleTests */,
+				AA581D6ADA4091A067E6E4FA54A05986 /* TSOfflineGeocoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		997EFEAC37C06276DE6D7BD601C456A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99C52199A342FB27617FC4917A1D4B4 /* Pods-TSOfflineGeocoder-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EE943D5E9658F567C2E15BAC463D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2827E517C553C1810FA10BA1D344AC72 /* TSGeocodeOperation.m in Sources */,
+				19575ED61B6F6072F5F471BF658F8A7E /* TSOfflineGeocoder-dummy.m in Sources */,
+				B24A38B23116C69BDD5D92534BB0ADB9 /* TSOfflineGeocoder.m in Sources */,
+				3DFB3C109A15A818C1B657A8D5CAEE60 /* TSOfflineLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E5A3416CA7E95AA79DFA4D874FCC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8399F2871975B1629C71135800994507 /* Pods-TSOfflineGeocoder-ExampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24C8727C4E2A1551A18F32BF94E8B648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSOfflineGeocoder;
+			target = AA581D6ADA4091A067E6E4FA54A05986 /* TSOfflineGeocoder */;
+			targetProxy = 6F6E6C497D2FA495BE6D513B771B454E /* PBXContainerItemProxy */;
+		};
+		6D1835654DDC48937D660B4CB86CDBCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TSOfflineGeocoder;
+			target = AA581D6ADA4091A067E6E4FA54A05986 /* TSOfflineGeocoder */;
+			targetProxy = 8CC8C426745EFFC245F5FC88FB24B3A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01124AB6081AC5CC3219F1C8686F588F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EED76622422D1496D872C8515B4AF41 /* Pods-TSOfflineGeocoder-ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		14C619683AAAE57C77CEC551AE87BE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F18FF27AB7346278AB6046E92F2C37 /* TSOfflineGeocoder-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSOfflineGeocoder/TSOfflineGeocoder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		63D638CB461F8B867994C25810139ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D369B1404C8FE531EE70119FF776078B /* Pods-TSOfflineGeocoder-Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D4C73A3542322C028714AFE86355DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DF8527587337053DC1862562CD392A /* Pods-TSOfflineGeocoder-Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		93997ABB541861EB4B894DC2A9D5BFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F18FF27AB7346278AB6046E92F2C37 /* TSOfflineGeocoder-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSOfflineGeocoder/TSOfflineGeocoder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A2A3FCA6599E8034578E80B9179C76CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB66C978656E240C917407B296597F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D643E1001A3E38AA410E293BC938E7F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E56BE849897433E1339128B9C4FAA4A /* Pods-TSOfflineGeocoder-ExampleTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A3FCA6599E8034578E80B9179C76CD /* Debug */,
+				AB66C978656E240C917407B296597F92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5432B73C8E08BD5B7426F391578134A2 /* Build configuration list for PBXNativeTarget "Pods-TSOfflineGeocoder-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01124AB6081AC5CC3219F1C8686F588F /* Debug */,
+				D643E1001A3E38AA410E293BC938E7F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59AEC6401762C4B16B9E651AAF45A7B9 /* Build configuration list for PBXNativeTarget "TSOfflineGeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93997ABB541861EB4B894DC2A9D5BFE5 /* Debug */,
+				14C619683AAAE57C77CEC551AE87BE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C448F1CB07BBA087F3F276827BF583D /* Build configuration list for PBXNativeTarget "Pods-TSOfflineGeocoder-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D638CB461F8B867994C25810139ABE /* Debug */,
+				7D4C73A3542322C028714AFE86355DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

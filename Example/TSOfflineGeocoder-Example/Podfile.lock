@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../../
 
 SPEC CHECKSUMS:
-  TSOfflineGeocoder: 2fbf760a4a770ade2cdb43c342784f92f88c5a0c
+  TSOfflineGeocoder: d7851cb458142f6e7b587dc2fd39b6c8402825df
 
-COCOAPODS: 0.34.4
+COCOAPODS: 0.38.2
