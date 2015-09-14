@@ -5,13 +5,18 @@
 Offline reverse geocoder for Objective-C.
 Turn a string like "SF" into a location object with name, coordinates, timezone, etc. No internet connection is required.
 
+<br />
+
 ![Demo](https://cloud.githubusercontent.com/assets/221925/9855012/20155d6a-5b0c-11e5-8f70-353f7f71debc.gif "Demo")
 
+<br />
+
 ## Features
-- Doesn't require an internet connection
+- Finds locations using **strings** or **coordinates**
+- **No internet required**
 - Online fallback
+- Results from **all around the world**
 - Fast
-- Results from all around the world
 - Auto complete
 - Returns an array of possible results.
 
@@ -40,7 +45,7 @@ Import the offline geocoder in your project
 Instantiate the geocoder using:
 
 ```objc
-TSOfflineGeocoder  *offlineGeocoder = [TSOfflineGeocoder new];
+TSOfflineGeocoder *offlineGeocoder = [TSOfflineGeocoder new];
 ```
 
 Search for locations using a string:
@@ -53,6 +58,9 @@ Search for locations using a string:
   }
 }];
 ```
+
+
+<br />
 
 ## License
 
@@ -79,9 +87,10 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+- - -
 
 License: Places database (TSOfflineGeocoder_geoData.json)
 
- Source: http://www.geonames.org
- Updated by: truestory.io
- License: http://creativecommons.org/licenses/by/3.0/
+ - Source: http://www.geonames.org
+ - Updated by: truestory.io
+ - License: http://creativecommons.org/licenses/by/3.0/
