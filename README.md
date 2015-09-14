@@ -15,11 +15,50 @@ Turn a string like "SF" into a location object with name, coordinates, timezone,
 - Auto complete
 - Returns an array of possible results.
 
+## How to get started
+
+Download TSOfflineGeocoder and try out the included iPhone example apps
+
+### 1. Install with CocoaPods
+
+Add the following line to your Podfile:
+
+```ruby
+pod 'TSOfflineGeocoder', :git => 'https://github.com/bnolens/TSOfflineGeocoder.git'
+```
+
+### 2. Import
+
+Import the offline geocoder in your project
+
+```objc
+#import "TSOfflineGeocoder.h"
+```
+
+### 3. Use
+
+Instantiate the geocoder using:
+
+```objc
+TSOfflineGeocoder  *offlineGeocoder = [TSOfflineGeocoder new];
+```
+
+Search for locations using a string:
+
+```objc
+[offlineGeocoder geocodeAddressString:@"San Francisco" completionHandler:^(NSDictionary *results, NSError *error) {
+  if (results) {
+      TSOfflineLocation *firstLocation = (TSOfflineLocation*)((NSArray*)[results objectForKey:kTSReturnValueData])[0];
+      NSLog(@"%@", firstLocation.displayName);
+  }
+}];
+```
+
 ## License
 
 License: TSOfflineGeocoder
 
-Copyright 2014 Benoit Nolens - http://truestory.io
+Copyright 2015 Benoit Nolens - http://truestory.io
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
