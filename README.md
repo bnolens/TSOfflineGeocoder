@@ -2,8 +2,10 @@
 
 # TSOfflineGeocoder
 
-Offline reverse geocoder for Objective-C. 
+Offline reverse geocoder for Objective-C.
 Turn a string like "SF" into a location object with name, coordinates, timezone, etc. No internet connection is required.
+
+![Demo](https://cloud.githubusercontent.com/assets/221925/9855012/20155d6a-5b0c-11e5-8f70-353f7f71debc.gif "Demo")
 
 ## Features
 - Doesn't require an internet connection
