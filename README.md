@@ -29,7 +29,7 @@ Download TSOfflineGeocoder and try out the included iPhone example apps
 Add the following line to your Podfile:
 
 ```ruby
-pod 'TSOfflineGeocoder', :git => 'https://github.com/bnolens/TSOfflineGeocoder.git'
+pod 'TSOfflineGeocoder'
 ```
 
 ### 2. Import
