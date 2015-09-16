@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TSOfflineGeocoder"
-  s.version          = "0.1.5"
+  s.version          = "0.1.6"
   s.summary          = "Offline reverse geocoder for Objective-c"
   s.description      = <<-DESC
   * Finds locations using strings or coordinates
@@ -21,6 +21,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source_files = "Pod/Classes/lib/"
-  s.resources = "Pod/Resources/TSOfflineGeocoder_geoData.json"
+  s.source_files = "Pod/Classes/lib/**/*.{h,m}"
+  s.resource_bundle = {
+    "Database" => ["Pod/Resources/TSOfflineGeocoder_geoData.json"]
+  }
 end
