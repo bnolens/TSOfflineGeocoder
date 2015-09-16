@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TSOfflineGeocoder"
-  s.version          = "0.1.4"
+  s.version          = "0.1.5"
   s.summary          = "Offline reverse geocoder for Objective-c"
   s.description      = <<-DESC
   * Finds locations using strings or coordinates
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   * Returns an array of possible results.
                        DESC
   s.homepage         = "https://github.com/bnolens/TSOfflineGeocoder"
-  s.license          = "MIT"
+  s.license          = { :type => "MIT", :file => "LICENSE.txt" }
   s.author           = { "Benoit Nolens" => "benoit@truestory.io" }
   s.source           = { :git => "https://github.com/bnolens/TSOfflineGeocoder.git", :tag => "v#{s.version}" }
 
