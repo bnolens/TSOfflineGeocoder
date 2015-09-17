@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source_files = "Pod/Classes/lib/**/*.{h,m}"
-  s.resource_bundle = {
+  s.source_files = "Pod/Classes/lib/"
+  s.resource_bundles = {
     "Database" => ["Pod/Resources/TSOfflineGeocoder_geoData.json"]
   }
 end

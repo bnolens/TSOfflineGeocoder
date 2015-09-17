@@ -5,7 +5,7 @@ This application makes use of the following third party libraries:
 
 License: TSOfflineGeocoder
 
-Copyright 2014 Benoit Nolens - http://truestory.io
+Copyright 2015 Benoit Nolens - http://truestory.io
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

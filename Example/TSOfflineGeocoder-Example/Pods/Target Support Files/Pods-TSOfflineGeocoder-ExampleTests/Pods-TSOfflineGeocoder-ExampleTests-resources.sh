@@ -58,10 +58,10 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "../../../Pod/Resources/TSOfflineGeocoder_geoData.json"
+  install_resource "${BUILT_PRODUCTS_DIR}/Database.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "../../../Pod/Resources/TSOfflineGeocoder_geoData.json"
+  install_resource "${BUILT_PRODUCTS_DIR}/Database.bundle"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

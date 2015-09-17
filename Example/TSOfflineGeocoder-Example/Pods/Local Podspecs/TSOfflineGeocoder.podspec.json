@@ -1,16 +1,19 @@
 {
   "name": "TSOfflineGeocoder",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "summary": "Offline reverse geocoder for Objective-c",
-  "description": "* Offline with online fallback\n* Fast\n* Worldwide locations",
+  "description": "* Finds locations using strings or coordinates\n* No internet required\n* Online fallback\n* Results from all around the world\n* Fast\n* Auto complete\n* Returns an array of possible results.",
   "homepage": "https://github.com/bnolens/TSOfflineGeocoder",
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.txt"
+  },
   "authors": {
     "Benoit Nolens": "benoit@truestory.io"
   },
   "source": {
     "git": "https://github.com/bnolens/TSOfflineGeocoder.git",
-    "tag": "0.1.4"
+    "tag": "v0.1.6"
   },
   "platforms": {
     "ios": "7.0",
@@ -18,5 +21,9 @@
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/lib/",
-  "resources": "Pod/Resources/TSOfflineGeocoder_geoData.json"
+  "resource_bundles": {
+    "Database": [
+      "Pod/Resources/TSOfflineGeocoder_geoData.json"
+    ]
+  }
 }

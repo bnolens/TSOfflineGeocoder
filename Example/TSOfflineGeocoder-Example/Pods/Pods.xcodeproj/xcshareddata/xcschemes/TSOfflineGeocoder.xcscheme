@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CBC7BDB76230E75CC90C7522"
+               BlueprintIdentifier = "D0B60074C0CFD9B37DB6D016"
                BuildableName = "libTSOfflineGeocoder.a"
                BlueprintName = "TSOfflineGeocoder"
                ReferencedContainer = "container:Pods.xcodeproj">

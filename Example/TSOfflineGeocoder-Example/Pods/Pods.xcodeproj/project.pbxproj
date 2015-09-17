@@ -7,34 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19575ED61B6F6072F5F471BF658F8A7E /* TSOfflineGeocoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A27D711D23760E68AFB88259918361 /* TSOfflineGeocoder-dummy.m */; };
-		2827E517C553C1810FA10BA1D344AC72 /* TSGeocodeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C714C59F5ACEE267036CD86E60D9D7 /* TSGeocodeOperation.m */; };
-		3DFB3C109A15A818C1B657A8D5CAEE60 /* TSOfflineLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D24362EF982C363BBF1743D4DD8B2F6A /* TSOfflineLocation.m */; };
-		5A394F238ABF3FFE6FE3BFC11B0AD591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */; };
+		1CA38170E81EA7063C08DDEAE34AA8CA /* TSGeocodeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E52BFBE652C676B476AB355FC4CB16EB /* TSGeocodeOperation.h */; };
+		3E2A32DC5948E2B6A7BDB1751D9DFB63 /* TSOfflineGeocoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD98BDF3882100321288F5352BE0E05 /* TSOfflineGeocoder-dummy.m */; };
+		49BFD0E865C8353C8C31F7E292D2FB1B /* TSOfflineGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F9D30CFF28C16FD019538BF2DA707B /* TSOfflineGeocoder.m */; };
+		5A394F238ABF3FFE6FE3BFC11B0AD591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77EAC7C2A1331A90AF63E2348982012 /* Foundation.framework */; };
+		64CE97C931CD2DA270B9C1350A69427C /* TSOfflineLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F178F6D1EE479B3B6D283713C413BC9 /* TSOfflineLocation.h */; };
+		8347C272A868F09430E0517DC0816E3C /* TSGeocodeOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC0738D76569023AA1D4ACF1C327871 /* TSGeocodeOperation.m */; };
 		8399F2871975B1629C71135800994507 /* Pods-TSOfflineGeocoder-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F9AC9660C297BDBEBEDD4997E1E40B /* Pods-TSOfflineGeocoder-ExampleTests-dummy.m */; };
-		A755BBD5746578F16FBC2225A1CF88CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */; };
+		A755BBD5746578F16FBC2225A1CF88CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77EAC7C2A1331A90AF63E2348982012 /* Foundation.framework */; };
 		A99C52199A342FB27617FC4917A1D4B4 /* Pods-TSOfflineGeocoder-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E0E3C764D53B6660A3C6E35004B4FB /* Pods-TSOfflineGeocoder-Example-dummy.m */; };
-		B1F2EEB9D710E396104BDB9167A71C7B /* TSOfflineGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6005A822A25C00DE7763CB19EF4754 /* TSOfflineGeocoder.h */; };
-		B24A38B23116C69BDD5D92534BB0ADB9 /* TSOfflineGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EEFEBB15D53E8BA0847DE4D4A762F1 /* TSOfflineGeocoder.m */; };
-		B5FCD08AC02E7CB39E70659E74B58D2B /* TSGeocodeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E063AB7B26E02AC9DE1410F751FC9B0 /* TSGeocodeOperation.h */; };
-		D32BDBF59CB9226548A7AAE5E6D02910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */; };
-		DB09F3FD91E51275680590D09AE5F8B2 /* TSOfflineLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B39A114A8C97D5FAAF3A6FC7CB489C9 /* TSOfflineLocation.h */; };
+		B5AB12AEF63C755ABD7B06AA2343A292 /* TSOfflineGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 439C22CBAE2B033DE1DFDFEC45D029EB /* TSOfflineGeocoder.h */; };
+		BE771138767F2447A106207338AD7172 /* TSOfflineGeocoder_geoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C8C1DE6F8A0D82FBFA024F33E848D33 /* TSOfflineGeocoder_geoData.json */; };
+		F1FAF5CF265A344D6851A5645E50F1DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77EAC7C2A1331A90AF63E2348982012 /* Foundation.framework */; };
+		F91CCDDB4403DB1B0AC27937B7770EB3 /* TSOfflineLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BAA3F9652F1D0CD39829CEA26D7CD1D /* TSOfflineLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6F6E6C497D2FA495BE6D513B771B454E /* PBXContainerItemProxy */ = {
+		7B1C60156DA4CCD99A25DA668C9D54DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA581D6ADA4091A067E6E4FA54A05986;
+			remoteGlobalIDString = B8DDEFCC2CC1BB32861B47BED1DCACE5;
 			remoteInfo = TSOfflineGeocoder;
 		};
-		8CC8C426745EFFC245F5FC88FB24B3A9 /* PBXContainerItemProxy */ = {
+		9A3FF28CFD04BB306EF76731E9759458 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA581D6ADA4091A067E6E4FA54A05986;
+			remoteGlobalIDString = B8DDEFCC2CC1BB32861B47BED1DCACE5;
 			remoteInfo = TSOfflineGeocoder;
+		};
+		B113FAB206E900D50919750EDC5C68B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A6D2D201012B4D229A949767A0C84E;
+			remoteInfo = "TSOfflineGeocoder-Database";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -42,47 +50,55 @@
 		0D3937279008529C2A8ED5EE79692B48 /* Pods-TSOfflineGeocoder-ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSOfflineGeocoder-ExampleTests-resources.sh"; sourceTree = "<group>"; };
 		1EED76622422D1496D872C8515B4AF41 /* Pods-TSOfflineGeocoder-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSOfflineGeocoder-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2177FF13EA292C4949EF6C1FC0747526 /* Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		28C714C59F5ACEE267036CD86E60D9D7 /* TSGeocodeOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSGeocodeOperation.m; sourceTree = "<group>"; };
+		28F9D30CFF28C16FD019538BF2DA707B /* TSOfflineGeocoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSOfflineGeocoder.m; sourceTree = "<group>"; };
 		33784946B0C4C6AF90E5556B7A47F1A9 /* TSOfflineGeocoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSOfflineGeocoder-prefix.pch"; sourceTree = "<group>"; };
 		33F9AC9660C297BDBEBEDD4997E1E40B /* Pods-TSOfflineGeocoder-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSOfflineGeocoder-ExampleTests-dummy.m"; sourceTree = "<group>"; };
-		44339C6242374D063BB739C02CF53BBE /* TSOfflineGeocoder_geoData.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = TSOfflineGeocoder_geoData.json; sourceTree = "<group>"; };
+		439C22CBAE2B033DE1DFDFEC45D029EB /* TSOfflineGeocoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSOfflineGeocoder.h; sourceTree = "<group>"; };
 		45A59523EE2FAC0D4B1E3D7DC5D5B860 /* Pods-TSOfflineGeocoder-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TSOfflineGeocoder-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BAA3F9652F1D0CD39829CEA26D7CD1D /* TSOfflineLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSOfflineLocation.m; sourceTree = "<group>"; };
 		53338351DE8EADCC91D3CBF50E62F600 /* libPods-TSOfflineGeocoder-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSOfflineGeocoder-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EBBB10CA889594B3FF2AC02B8AE5EC /* libPods-TSOfflineGeocoder-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TSOfflineGeocoder-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57EEFEBB15D53E8BA0847DE4D4A762F1 /* TSOfflineGeocoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSOfflineGeocoder.m; sourceTree = "<group>"; };
+		666BD3A246A3796CFC69F6B17C2595D1 /* Database.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Database.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E56BE849897433E1339128B9C4FAA4A /* Pods-TSOfflineGeocoder-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSOfflineGeocoder-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		71A27D711D23760E68AFB88259918361 /* TSOfflineGeocoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSOfflineGeocoder-dummy.m"; sourceTree = "<group>"; };
 		7AD944E62D3BCAD313FAC96A737DD29C /* Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSOfflineGeocoder-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7B39A114A8C97D5FAAF3A6FC7CB489C9 /* TSOfflineLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSOfflineLocation.h; sourceTree = "<group>"; };
 		8846CA28F6BF03FAE8A5E14BF76315DC /* Pods-TSOfflineGeocoder-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TSOfflineGeocoder-Example-resources.sh"; sourceTree = "<group>"; };
-		8E063AB7B26E02AC9DE1410F751FC9B0 /* TSGeocodeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSGeocodeOperation.h; sourceTree = "<group>"; };
-		99F18FF27AB7346278AB6046E92F2C37 /* TSOfflineGeocoder-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSOfflineGeocoder-Private.xcconfig"; sourceTree = "<group>"; };
-		9A6005A822A25C00DE7763CB19EF4754 /* TSOfflineGeocoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSOfflineGeocoder.h; sourceTree = "<group>"; };
-		A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8BF60472D2E7E427EF958B2740E96235 /* libTSOfflineGeocoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSOfflineGeocoder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8C1DE6F8A0D82FBFA024F33E848D33 /* TSOfflineGeocoder_geoData.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = TSOfflineGeocoder_geoData.json; sourceTree = "<group>"; };
+		9F178F6D1EE479B3B6D283713C413BC9 /* TSOfflineLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSOfflineLocation.h; sourceTree = "<group>"; };
+		AEC0738D76569023AA1D4ACF1C327871 /* TSGeocodeOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSGeocodeOperation.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C25B6DB3CFAFB5E58DD5936F310C8219 /* libTSOfflineGeocoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSOfflineGeocoder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD98BDF3882100321288F5352BE0E05 /* TSOfflineGeocoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSOfflineGeocoder-dummy.m"; sourceTree = "<group>"; };
 		D225E2D1D13B0E4CA9AED51168C78D7D /* Pods-TSOfflineGeocoder-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TSOfflineGeocoder-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D24362EF982C363BBF1743D4DD8B2F6A /* TSOfflineLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TSOfflineLocation.m; sourceTree = "<group>"; };
 		D369B1404C8FE531EE70119FF776078B /* Pods-TSOfflineGeocoder-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSOfflineGeocoder-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3E0E3C764D53B6660A3C6E35004B4FB /* Pods-TSOfflineGeocoder-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TSOfflineGeocoder-Example-dummy.m"; sourceTree = "<group>"; };
 		D4DB5C742972D09469D7447D30C8C13B /* TSOfflineGeocoder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSOfflineGeocoder.xcconfig; sourceTree = "<group>"; };
+		D77EAC7C2A1331A90AF63E2348982012 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E4DF8527587337053DC1862562CD392A /* Pods-TSOfflineGeocoder-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TSOfflineGeocoder-Example.release.xcconfig"; sourceTree = "<group>"; };
+		E52BFBE652C676B476AB355FC4CB16EB /* TSGeocodeOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TSGeocodeOperation.h; sourceTree = "<group>"; };
+		EC8CEE8835A2BF3E89FC4E41D18F930F /* TSOfflineGeocoder-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TSOfflineGeocoder-Private.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		149A66C8FA442133ACEF03E8491CA108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F769276045DA2DA6151C8B58C87C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FAF5CF265A344D6851A5645E50F1DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		47831C32C6210D0DA17BEB2ED4025B42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A755BBD5746578F16FBC2225A1CF88CF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7BA2CBC3F8F918A1AB4B127CFED112DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D32BDBF59CB9226548A7AAE5E6D02910 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +138,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A331CE8E7F9D414C431B988DA1D1C6C6 /* Foundation.framework */,
+				D77EAC7C2A1331A90AF63E2348982012 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -157,7 +173,7 @@
 		BC1CCFB79E1701713F3FC4DC105EEAC1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				44339C6242374D063BB739C02CF53BBE /* TSOfflineGeocoder_geoData.json */,
+				9C8C1DE6F8A0D82FBFA024F33E848D33 /* TSOfflineGeocoder_geoData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -195,9 +211,10 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				666BD3A246A3796CFC69F6B17C2595D1 /* Database.bundle */,
 				53EBBB10CA889594B3FF2AC02B8AE5EC /* libPods-TSOfflineGeocoder-Example.a */,
 				53338351DE8EADCC91D3CBF50E62F600 /* libPods-TSOfflineGeocoder-ExampleTests.a */,
-				C25B6DB3CFAFB5E58DD5936F310C8219 /* libTSOfflineGeocoder.a */,
+				8BF60472D2E7E427EF958B2740E96235 /* libTSOfflineGeocoder.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,12 +230,12 @@
 		E1E7815D06AAACAC5B8DCB8BB6D61E9B /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				8E063AB7B26E02AC9DE1410F751FC9B0 /* TSGeocodeOperation.h */,
-				28C714C59F5ACEE267036CD86E60D9D7 /* TSGeocodeOperation.m */,
-				9A6005A822A25C00DE7763CB19EF4754 /* TSOfflineGeocoder.h */,
-				57EEFEBB15D53E8BA0847DE4D4A762F1 /* TSOfflineGeocoder.m */,
-				7B39A114A8C97D5FAAF3A6FC7CB489C9 /* TSOfflineLocation.h */,
-				D24362EF982C363BBF1743D4DD8B2F6A /* TSOfflineLocation.m */,
+				E52BFBE652C676B476AB355FC4CB16EB /* TSGeocodeOperation.h */,
+				AEC0738D76569023AA1D4ACF1C327871 /* TSGeocodeOperation.m */,
+				439C22CBAE2B033DE1DFDFEC45D029EB /* TSOfflineGeocoder.h */,
+				28F9D30CFF28C16FD019538BF2DA707B /* TSOfflineGeocoder.m */,
+				9F178F6D1EE479B3B6D283713C413BC9 /* TSOfflineLocation.h */,
+				4BAA3F9652F1D0CD39829CEA26D7CD1D /* TSOfflineLocation.m */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -247,8 +264,8 @@
 			isa = PBXGroup;
 			children = (
 				D4DB5C742972D09469D7447D30C8C13B /* TSOfflineGeocoder.xcconfig */,
-				99F18FF27AB7346278AB6046E92F2C37 /* TSOfflineGeocoder-Private.xcconfig */,
-				71A27D711D23760E68AFB88259918361 /* TSOfflineGeocoder-dummy.m */,
+				EC8CEE8835A2BF3E89FC4E41D18F930F /* TSOfflineGeocoder-Private.xcconfig */,
+				BDD98BDF3882100321288F5352BE0E05 /* TSOfflineGeocoder-dummy.m */,
 				33784946B0C4C6AF90E5556B7A47F1A9 /* TSOfflineGeocoder-prefix.pch */,
 			);
 			name = "Support Files";
@@ -258,13 +275,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		72D59BF1E17C922AF85F56BE4C50A446 /* Headers */ = {
+		8E94412F4138F6049766B1A33215ACE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5FCD08AC02E7CB39E70659E74B58D2B /* TSGeocodeOperation.h in Headers */,
-				B1F2EEB9D710E396104BDB9167A71C7B /* TSOfflineGeocoder.h in Headers */,
-				DB09F3FD91E51275680590D09AE5F8B2 /* TSOfflineLocation.h in Headers */,
+				1CA38170E81EA7063C08DDEAE34AA8CA /* TSGeocodeOperation.h in Headers */,
+				B5AB12AEF63C755ABD7B06AA2343A292 /* TSOfflineGeocoder.h in Headers */,
+				64CE97C931CD2DA270B9C1350A69427C /* TSOfflineLocation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +298,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				24C8727C4E2A1551A18F32BF94E8B648 /* PBXTargetDependency */,
+				75EF05ECBBE46F3CA5CC1644EA124A5B /* PBXTargetDependency */,
 			);
 			name = "Pods-TSOfflineGeocoder-Example";
 			productName = "Pods-TSOfflineGeocoder-Example";
@@ -298,28 +315,46 @@
 			buildRules = (
 			);
 			dependencies = (
-				6D1835654DDC48937D660B4CB86CDBCA /* PBXTargetDependency */,
+				2B5CDB9CBC6A35CE4979D8CCD64DF2D0 /* PBXTargetDependency */,
 			);
 			name = "Pods-TSOfflineGeocoder-ExampleTests";
 			productName = "Pods-TSOfflineGeocoder-ExampleTests";
 			productReference = 53338351DE8EADCC91D3CBF50E62F600 /* libPods-TSOfflineGeocoder-ExampleTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AA581D6ADA4091A067E6E4FA54A05986 /* TSOfflineGeocoder */ = {
+		84A6D2D201012B4D229A949767A0C84E /* TSOfflineGeocoder-Database */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59AEC6401762C4B16B9E651AAF45A7B9 /* Build configuration list for PBXNativeTarget "TSOfflineGeocoder" */;
+			buildConfigurationList = 47B69C7369AC22B0444E3FBDFAC68E51 /* Build configuration list for PBXNativeTarget "TSOfflineGeocoder-Database" */;
 			buildPhases = (
-				A3EE943D5E9658F567C2E15BAC463D9E /* Sources */,
-				7BA2CBC3F8F918A1AB4B127CFED112DA /* Frameworks */,
-				72D59BF1E17C922AF85F56BE4C50A446 /* Headers */,
+				981B714CC645F93D84BA6E67DAC47B47 /* Sources */,
+				149A66C8FA442133ACEF03E8491CA108 /* Frameworks */,
+				96AF932401FB2544D771DEAF3967B50D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "TSOfflineGeocoder-Database";
+			productName = "TSOfflineGeocoder-Database";
+			productReference = 666BD3A246A3796CFC69F6B17C2595D1 /* Database.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B8DDEFCC2CC1BB32861B47BED1DCACE5 /* TSOfflineGeocoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A2925DF9528DF0E36AD0324AA64E53 /* Build configuration list for PBXNativeTarget "TSOfflineGeocoder" */;
+			buildPhases = (
+				93A297BCC334DC30C27B0E8D746439E0 /* Sources */,
+				18F769276045DA2DA6151C8B58C87C6F /* Frameworks */,
+				8E94412F4138F6049766B1A33215ACE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C87AC0E64257BA8E2F9B27EEE141D7F9 /* PBXTargetDependency */,
+			);
 			name = TSOfflineGeocoder;
 			productName = TSOfflineGeocoder;
-			productReference = C25B6DB3CFAFB5E58DD5936F310C8219 /* libTSOfflineGeocoder.a */;
+			productReference = 8BF60472D2E7E427EF958B2740E96235 /* libTSOfflineGeocoder.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -345,28 +380,47 @@
 			targets = (
 				0726B31A04653F453878F65DE0FAE460 /* Pods-TSOfflineGeocoder-Example */,
 				332A51B8EF9CB490D380F94C7B4DCCF9 /* Pods-TSOfflineGeocoder-ExampleTests */,
-				AA581D6ADA4091A067E6E4FA54A05986 /* TSOfflineGeocoder */,
+				B8DDEFCC2CC1BB32861B47BED1DCACE5 /* TSOfflineGeocoder */,
+				84A6D2D201012B4D229A949767A0C84E /* TSOfflineGeocoder-Database */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		96AF932401FB2544D771DEAF3967B50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE771138767F2447A106207338AD7172 /* TSOfflineGeocoder_geoData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		93A297BCC334DC30C27B0E8D746439E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8347C272A868F09430E0517DC0816E3C /* TSGeocodeOperation.m in Sources */,
+				3E2A32DC5948E2B6A7BDB1751D9DFB63 /* TSOfflineGeocoder-dummy.m in Sources */,
+				49BFD0E865C8353C8C31F7E292D2FB1B /* TSOfflineGeocoder.m in Sources */,
+				F91CCDDB4403DB1B0AC27937B7770EB3 /* TSOfflineLocation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981B714CC645F93D84BA6E67DAC47B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		997EFEAC37C06276DE6D7BD601C456A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A99C52199A342FB27617FC4917A1D4B4 /* Pods-TSOfflineGeocoder-Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3EE943D5E9658F567C2E15BAC463D9E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2827E517C553C1810FA10BA1D344AC72 /* TSGeocodeOperation.m in Sources */,
-				19575ED61B6F6072F5F471BF658F8A7E /* TSOfflineGeocoder-dummy.m in Sources */,
-				B24A38B23116C69BDD5D92534BB0ADB9 /* TSOfflineGeocoder.m in Sources */,
-				3DFB3C109A15A818C1B657A8D5CAEE60 /* TSOfflineLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,17 +435,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		24C8727C4E2A1551A18F32BF94E8B648 /* PBXTargetDependency */ = {
+		2B5CDB9CBC6A35CE4979D8CCD64DF2D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSOfflineGeocoder;
-			target = AA581D6ADA4091A067E6E4FA54A05986 /* TSOfflineGeocoder */;
-			targetProxy = 6F6E6C497D2FA495BE6D513B771B454E /* PBXContainerItemProxy */;
+			target = B8DDEFCC2CC1BB32861B47BED1DCACE5 /* TSOfflineGeocoder */;
+			targetProxy = 9A3FF28CFD04BB306EF76731E9759458 /* PBXContainerItemProxy */;
 		};
-		6D1835654DDC48937D660B4CB86CDBCA /* PBXTargetDependency */ = {
+		75EF05ECBBE46F3CA5CC1644EA124A5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TSOfflineGeocoder;
-			target = AA581D6ADA4091A067E6E4FA54A05986 /* TSOfflineGeocoder */;
-			targetProxy = 8CC8C426745EFFC245F5FC88FB24B3A9 /* PBXContainerItemProxy */;
+			target = B8DDEFCC2CC1BB32861B47BED1DCACE5 /* TSOfflineGeocoder */;
+			targetProxy = 7B1C60156DA4CCD99A25DA668C9D54DA /* PBXContainerItemProxy */;
+		};
+		C87AC0E64257BA8E2F9B27EEE141D7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TSOfflineGeocoder-Database";
+			target = 84A6D2D201012B4D229A949767A0C84E /* TSOfflineGeocoder-Database */;
+			targetProxy = B113FAB206E900D50919750EDC5C68B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,21 +472,33 @@
 			};
 			name = Debug;
 		};
-		14C619683AAAE57C77CEC551AE87BE34 /* Release */ = {
+		231A5E11FC89DF9489513C1B834333C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99F18FF27AB7346278AB6046E92F2C37 /* TSOfflineGeocoder-Private.xcconfig */;
+			baseConfigurationReference = EC8CEE8835A2BF3E89FC4E41D18F930F /* TSOfflineGeocoder-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Database;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		505086C355C24C12F287166B4072AAB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8CEE8835A2BF3E89FC4E41D18F930F /* TSOfflineGeocoder-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TSOfflineGeocoder/TSOfflineGeocoder-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		63D638CB461F8B867994C25810139ABE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -444,6 +516,18 @@
 			};
 			name = Debug;
 		};
+		71F945FF560AEAE980332F0D98D82E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8CEE8835A2BF3E89FC4E41D18F930F /* TSOfflineGeocoder-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Database;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		7D4C73A3542322C028714AFE86355DCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4DF8527587337053DC1862562CD392A /* Pods-TSOfflineGeocoder-Example.release.xcconfig */;
@@ -459,22 +543,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
-		};
-		93997ABB541861EB4B894DC2A9D5BFE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99F18FF27AB7346278AB6046E92F2C37 /* TSOfflineGeocoder-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TSOfflineGeocoder/TSOfflineGeocoder-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 		A2A3FCA6599E8034578E80B9179C76CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -565,6 +633,22 @@
 			};
 			name = Release;
 		};
+		E400FD65FEE26D047F299F53ED75AFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8CEE8835A2BF3E89FC4E41D18F930F /* TSOfflineGeocoder-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TSOfflineGeocoder/TSOfflineGeocoder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,20 +661,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		41A2925DF9528DF0E36AD0324AA64E53 /* Build configuration list for PBXNativeTarget "TSOfflineGeocoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505086C355C24C12F287166B4072AAB2 /* Debug */,
+				E400FD65FEE26D047F299F53ED75AFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B69C7369AC22B0444E3FBDFAC68E51 /* Build configuration list for PBXNativeTarget "TSOfflineGeocoder-Database" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231A5E11FC89DF9489513C1B834333C6 /* Debug */,
+				71F945FF560AEAE980332F0D98D82E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5432B73C8E08BD5B7426F391578134A2 /* Build configuration list for PBXNativeTarget "Pods-TSOfflineGeocoder-ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01124AB6081AC5CC3219F1C8686F588F /* Debug */,
 				D643E1001A3E38AA410E293BC938E7F7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		59AEC6401762C4B16B9E651AAF45A7B9 /* Build configuration list for PBXNativeTarget "TSOfflineGeocoder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93997ABB541861EB4B894DC2A9D5BFE5 /* Debug */,
-				14C619683AAAE57C77CEC551AE87BE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

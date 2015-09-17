@@ -69,7 +69,8 @@ static NSArray *geoDataStatic = nil;
 
 - (NSArray*) loadOfflineDBWithPathForResource:(NSString *)path ofType:(NSString *)type {
     
-    NSString * filePath =[[NSBundle mainBundle] pathForResource:path ofType:type];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSString * filePath =[bundle pathForResource:[NSString stringWithFormat:@"Database.bundle/%@", path] ofType:type];
     NSError *error;
     NSString *json = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];
     
